@@ -1,0 +1,13 @@
+{
+  "name": "BENTO",
+  "short_name": "BENTO",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "icons": [{
+    "src": "assets/images/logo.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }],
+  "background_color": "#35c4ca",
+  "theme_color": "#35c4ca"
+}
