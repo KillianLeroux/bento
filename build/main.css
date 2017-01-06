@@ -22120,6 +22120,7 @@ sub {
 
 .ios page-carte .scroll-content, .md page-carte .scroll-content {
   height: 100%;
+  padding-bottom: 110px;
 }
 
 .ios page-carte #map, .md page-carte #map {
