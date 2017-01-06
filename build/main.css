@@ -22127,3 +22127,8 @@ sub {
   width: 100%;
   height: 100%;
 }
+
+.ios page-carte dd, .md page-carte dd {
+  font-weight: bold;
+  -webkit-margin-start: 0;
+}
