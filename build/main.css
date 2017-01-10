@@ -22109,6 +22109,10 @@ sub {
   }
 }
 
+.bar-button-default-md {
+  color: #fff;
+}
+
 .toolbar-background-md {
   background-color: #35c4ca;
 }
@@ -22133,17 +22137,34 @@ sub {
   -webkit-margin-start: 0;
 }
 
-page-liste-workspaces ion-avatar span {
+page-detail-workspace .text-green {
+  color: #82c554;
+}
+
+page-detail-workspace .text-red {
+  color: #c55454;
+}
+
+page-liste-workspaces ion-item.item-md {
+  padding-left: 0;
+}
+
+page-liste-workspaces ion-item ion-avatar span {
   display: inline-block;
   width: 40px;
   height: 40px;
   border-radius: 20px;
 }
 
-page-liste-workspaces ion-avatar span.disponible {
+page-liste-workspaces ion-item ion-avatar span.disponible {
   background-color: #82c554;
 }
 
-page-liste-workspaces ion-avatar span.non-disponible {
+page-liste-workspaces ion-item ion-avatar span.non-disponible {
   background-color: #c55454;
+}
+
+page-liste-workspaces ion-item ion-avatar ion-icon {
+  font-size: 4rem;
+  padding: 0 0.2rem;
 }
